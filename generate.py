@@ -32,7 +32,7 @@ font3 = ImageFont.truetype(_font, 55 - len(author));
 
 draw.text((90, 120), "Abstract studio studies in advanced joke                      ∞", font=font2, fill=0xfdfdfd)
 
-titlearr = [title[i:i + 16] for i in range(0, len(title), 12)];
+titlearr = [title[i:i + 16] for i in range(0, len(title), 16)];
 for i, group in enumerate(titlearr):
         draw.text((90, 250 + i * (titlesize + 20)), group, font=font, fill=0xfdfdfd)
 
