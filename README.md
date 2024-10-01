@@ -7,4 +7,5 @@ Cambridge University Press owns the copyright of the original cover. To avoid co
 ```shell
 python joke-book-cover-generate <Your-Cover-Title> <Author> [Font]
 ```
-Default font is `SourceHanSansCN-Heavy.otf`, if you don't have it, will throw an error.
+The font should be installed in the system.
+Default font is `adobe-source-han-sans/SourceHanSansCN-Heavy.otf`, if you don't have it, will throw an error.
